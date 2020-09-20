@@ -1,0 +1,14 @@
+[Read me] - Automation TCs
+
+1. Provide the ONE XPath to return the requests which are submitted and approved in 2019 (Request Status = Approved && Date Submitted = 2019):
+==> Done, successful
+
+XPATH: //tr[@class and .//div[@class="ct-drop-group dropdown btn-group"]/p[text()="Approved"] and .//div[contains(text(),'/2019 ')] ]
+
+2. Write the automation script to verify for 
+	2.1. Verify filter Student Access Request with INACTIVE 
+	2.2. Verify sorting of First Name column 
+	2.3. The API endpoint - GET https://my-json-server.typicode.com/typicode/demo/posts/1
+
+==> First of all, I would like to say sorry...when I'm unable to give you the best things in this automation challenge Test, because I have not completed it yet. I just completed it partially
+However, I hope you can review my scripts, and give me some advices to make it better.
